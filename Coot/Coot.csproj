@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Nanoray.Coot</RootNamespace>
+    <TargetFramework>net5.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Company>Nanoray</Company>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Nanoray-pl/Coot</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Nanoray-pl/Coot</PackageProjectUrl>
+    <PackageTags>proxy; proxying; interface composition</PackageTags>
+    <Authors>Shockah</Authors>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>An interface composition proxy library for C#.</Description>
+    <Copyright>Nanoray</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+    <PropertyGroup>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+  <ItemGroup>
+      <None Include="..\.editorconfig" Link=".editorconfig" />
+      <None Include="..\docs\README.md">
+          <Pack>True</Pack>
+          <PackagePath>\</PackagePath>
+      </None>
+        <None Include="..\LICENSE">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+</Project>
